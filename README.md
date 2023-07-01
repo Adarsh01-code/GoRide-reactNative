@@ -1,12 +1,12 @@
 
-# NoteFlow-reactNative
-**Note-Flow** is a powerful app that enables users to effortlessly track tasks and jot down notes, empowering them to establish a structured routine and stay focused on their daily goals.
+# GoRide-reactNative
+**Go-Ride** is a cutting-edge transportation app that utilizes an advanced tech stack to provide users with seamless travel experiences. The app incorporates a map functionality to enable efficient navigation, while the integration of React Native ensures cross-platform compatibility. By leveraging Redux, Go-Ride efficiently stores data, and the integration of captivating animations enhances the user interface, delivering a visually appealing and intuitive experience.
 
 This application is made using **React-Native**.
 
 This application is cross-platform and can be opened using **Android/iOS**.
 
-Download the **Expo Go** app and scan the QR code to use the **NoteFlow** application.
+Download the **Expo Go** app and scan the QR code to use the **GoRide** application.
 
 
 ![goRide-Qrcode](https://github.com/Adarsh01-code/GoRide-reactNative/assets/78374434/2364f1fa-70ee-4c2a-b6e2-a987da0b9108)
@@ -28,18 +28,18 @@ Copy and paste this link on any browser or ExpoGo app ::
 - **React Navigation(v6)** - Routing and navigation
 - **NativeBase(v3)** - Themable component library
 - **React Native Reanimated** - Animations
-- **React Native SVG** - Drawing SVG
-- **Moti** - Helper module for Reanimated 2
+- **Redux** -  state container used for manage and dispatching data
+- **Modal** - Helper module for displaying visually appealing alert texts.
 
 ## Project Structure
 ```
 $PROJECT_ROOT
-├── App.tsx        # Entry point
-└── src
-    ├── screens    # Screen components
-    ├── components # UI components
-    ├── utils      # Custom hooks and helpers
-    └── assets     # Image files
+├── App.js         # Entry point
+├── screens        # Screen components
+├── components     # UI components
+├── slices         # Redux slices (state management)
+├── assets         # Image files
+
 ```
 
 
