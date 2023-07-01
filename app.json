@@ -1,13 +1,14 @@
+
 {
   "expo": {
-    "name": "uber-clone-native",
-    "slug": "uber-clone-native",
+    "name": "Go Ride",
+    "slug": "go-ride",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/apkLogo.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/apkLogo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
